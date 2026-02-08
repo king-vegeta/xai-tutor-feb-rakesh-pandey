@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "force-push",
+			"type": "shell",
+			"command": "git push --force origin main"
+		},
+		{
+			"label": "commit-and-push",
+			"type": "shell",
+			"command": "git add . && git commit -m \"Implement full email client functionality\" && git push origin main"
+		}
+	]
+}
